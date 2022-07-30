@@ -9,11 +9,23 @@ public class MethodPractice {
         double num1 = getnumber();
         String operation = getoperation();
         double num2 = getnumber();
-
         double resault = calc(num1, num2, operation);
-
         System.out.println("Resault: " + resault);
     }
+
+        /*
+
+
+        псевдокод
+
+        [модификаторы доступа] <ип возвращаемого значения> <название метода>([параметры]){
+
+        тело метода
+
+        }
+
+        */
+
 
     private static double calc(double num1, double num2, String operation) {
         switch (operation) {
